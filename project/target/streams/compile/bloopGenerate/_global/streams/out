@@ -1,0 +1,4 @@
+[debug] [scala-ex-build] Classpath dependencies List()
+[debug] [scala-ex-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'scala-ex-build' to '/Users/k0d03gd/project/code/krushna/scala-ex/project/.bloop/scala-ex-build.json'
+[success] Generated .bloop/scala-ex-build.json

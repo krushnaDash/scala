@@ -1,0 +1,46 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/MOOCSettings.scala:43:16: not found: value scalaj[0m
+[0m[[0m[31merror[0m] [0m[0m        import scalaj.http.Http[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/MOOCSettings.scala:49:21: not found: value Http[0m
+[0m[[0m[31merror[0m] [0m[0m          val res = Http(url).method("GET")[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:5:8: not found: object scalafix[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafix.sbt.ScalafixPlugin.autoImport._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:7:8: not found: object scalaj[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalaj.http._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:9:19: object commons is not a member of package org.apache[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.commons.codec.binary.Base64[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:10:8: not found: object play[0m
+[0m[[0m[31merror[0m] [0m[0mimport play.api.libs.json.{Json, JsObject, JsPath}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:38:18: not found: value scalafix[0m
+[0m[[0m[31merror[0m] [0m[0m      (Compile / scalafix).toTask(" --check").dependsOn(Compile / compile)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:205:46: not found: type HttpResponse[0m
+[0m[[0m[31merror[0m] [0m[0m    def postSubmission[T](data: String): Try[HttpResponse[String]] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:206:18: not found: value Http[0m
+[0m[[0m[31merror[0m] [0m[0m      val http = Http("https://www.coursera.org/api/onDemandProgrammingScriptSubmissions.v1")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:226:42: not found: type HttpResponse[0m
+[0m[[0m[31merror[0m] [0m[0m    def reportCourseraResponse(response: HttpResponse[String]): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:261:26: not found: value Json[0m
+[0m[[0m[31merror[0m] [0m[0m        val result = Try(Json.parse(respBody)).toOption[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:263:27: not found: type JsObject[0m
+[0m[[0m[31merror[0m] [0m[0m          case Some(resp: JsObject) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:264:14: not found: value JsPath[0m
+[0m[[0m[31merror[0m] [0m[0m            (JsPath \ "details" \ "learnerMessage").read[String].reads(resp).get[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:55:5: not found: value scalafixConfig[0m
+[0m[[0m[31merror[0m] [0m[0m    scalafixConfig := {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/k0d03gd/project/code/krushna/scala/project/StudentTasks.scala:321:16: not found: value Base64[0m
+[0m[[0m[31merror[0m] [0m[0m    new String(Base64.encodeBase64(bytes))[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m15 errors found[0m
